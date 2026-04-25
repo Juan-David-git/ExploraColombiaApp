@@ -19,10 +19,19 @@ fun HomeScreen(
     onSignOut: () -> Unit = {}
 ) {
     val primaryOrange = Color(0xFFE45D25)
+    val currentUser = FirebaseAuth.getInstance().currentUser
 
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text("HOME SCREEN", fontSize = 30.sp, fontWeight = FontWeight.Bold)
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Text(
+                text = currentUser?.email ?: "Sin correo",
+                fontSize = 16.sp,
+                color = Color.Gray
+            )
 
             Spacer(modifier = Modifier.height(32.dp))
 
