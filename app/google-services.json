@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "412896050756",
+    "project_id": "exploracolombiaapp-5089e",
+    "storage_bucket": "exploracolombiaapp-5089e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412896050756:android:0c010330595854aaccc611",
+        "android_client_info": {
+          "package_name": "com.juandavidbernalsantoyo.exploracolombiaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDD76C7oVUxdRndxjftYcdMRbpZ-9P8QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
